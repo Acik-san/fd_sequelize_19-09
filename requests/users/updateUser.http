@@ -1,0 +1,7 @@
+PATCH http://localhost:3000/api/users/1 HTTP/1.1
+Content-Type: application/json
+
+{  
+  "firstName": "Tom",
+  "birthday": "1971-10-10"
+}

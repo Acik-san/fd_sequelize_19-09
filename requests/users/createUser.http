@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{  
+  "firstName": "Mike",
+  "lastName":"Med",
+  "email":"dsaaaad2@gmail.com",
+  "password": "san1234",
+  "birthday": "1971-06-28",
+  "isMale": true
+}
